@@ -10,6 +10,7 @@ public class Main
 		a = a + b;
 		b = a - b;
 		a = a - b;
-		System.out.println("The values of a and b after swapping is a = "+a+" and b = "+b);
+		System.out.println("Value of a after swapping"+a);
+		System.out.println("Value of b after swapping"+b);
 	}
 }
