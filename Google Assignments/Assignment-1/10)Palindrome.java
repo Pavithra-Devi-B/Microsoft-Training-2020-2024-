@@ -5,14 +5,14 @@ public class Main
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number :");
 		int N = scan.nextInt();
-		int originalNo = N;
-		int rem, reversedNo = 0;
+		int temp = N;
+		int rem, sum = 0;
 		while(N > 0){
 		    rem= N%10;
-		    reversedNo = reversedNo * 10 + rem;
-		    N /= 10;
+		    sum = sum * 10 + rem;
+		    N =N/10;
 		}
-		if(reversedNo == originalNo){
+		if(temp == sum){
 		    System.out.println("The entered number is a palindrome");
 		}
 		else{
